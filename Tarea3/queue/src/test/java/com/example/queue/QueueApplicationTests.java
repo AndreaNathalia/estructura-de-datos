@@ -1,10 +1,10 @@
-package com.example.Tarea3;
+package com.example.queue;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class Tarea3ApplicationTests {
+class QueueApplicationTests {
 
 	@Test
 	void contextLoads() {
