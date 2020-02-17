@@ -100,6 +100,7 @@ public class Logic {
         return "Texto: " + parrafo  + "\nCantidad de políndromos en el texto: " + NewContador  + "\nPolíndromos: " + palabras;
     }
 
+
     @RequestMapping(value = {"/csv"})
     @ResponseBody
     //Método para verificar los polindromos
