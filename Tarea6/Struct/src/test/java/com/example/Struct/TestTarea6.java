@@ -23,7 +23,7 @@ public class TestTarea6 {
 
     @Test
     void verificarCuadrante4(){
-        assertEquals(Logic.verificarCuadrante(45,-9),"El punto está en el CUADRANTE 4" + Logic.Cuadrante4());
+        assertEquals(Logic.verificarCuadrante(45,-9),"El punto está en el CUADRANTE 4v" + Logic.Cuadrante4());
     }
 
 }
