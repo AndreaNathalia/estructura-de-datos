@@ -135,22 +135,22 @@ class Tree:
 
         # 
         else:
-            moveNodeParent = node
-            moveNode = node.right_child
-            while moveNode.left_child:
-                moveNodeParent = moveNode
-                moveNode = moveNode.left_child
-            node.value = moveNode.value
-            if moveNode.right_child:
-                if moveNode.value < moveNodeParent.value:
-                    moveNodeParent.left_child = moveNode.right_child
+            temp = node
+            move = node.right_child
+            while move.left_child:
+                temp = move
+                move = move.left_child
+            node.value = move.value
+            if move.right_child:
+                if move.value < temp.value:
+                    temp.left_child = move.right_child
                 else:
-                    moveNodeParent.right_child = moveNode.right_child
+                    temp.right_child = move.right_child
             else:
-                if moveNode.value < moveNodeParent.value:
-                    moveNodeParent.left_child = None
+                if move.value < temp.value:
+                    temp.left_child = None
                 else:
-                    moveNodeParent.right_child = None
+                    temp.right_child = None
             return True
 
 
