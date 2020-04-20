@@ -52,7 +52,6 @@ g.addEdge(2, 3, 7)
 g.addEdge(3, 4, -1) 
 g.addEdge(4, 5, -2) 
   
-# source = 1 
 x = 2
   
 print ("\nshortest distances from: %d " % x) 
