@@ -10,9 +10,9 @@ def insertion_sort(array):
         array[move + 1] = k
 
 
-array = [5, 4, 3, 2, 1]
-insertion_sort(array)
+# array = [5, 4, 3, 2, 1]
+# insertion_sort(array)
 
-#PRINT
-for printt in range(len(array)):
-    print(array[printt])
+# #PRINT
+# for printt in range(len(array)):
+#     print(array[printt])
