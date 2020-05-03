@@ -8,6 +8,8 @@ def insertion_sort(array):
             move -= 1
         
         array[move + 1] = k
+        
+    return array
 
 
 # #Unsorted

@@ -14,7 +14,7 @@ def selection_sort(unsorted):
 
     return unsorted
 
-print(selection_sort(a))
+# print(selection_sort(a))
 
 def bubble_sort(unsorted):
 
@@ -25,4 +25,4 @@ def bubble_sort(unsorted):
 
     return unsorted
 
-print(bubble_sort(a))
+# print(bubble_sort(a))
