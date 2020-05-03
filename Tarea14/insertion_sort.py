@@ -10,9 +10,13 @@ def insertion_sort(array):
         array[move + 1] = k
 
 
+# #Unsorted
 # array = [5, 4, 3, 2, 1]
-# insertion_sort(array)
+# print("\nUnsorted list: ")
+# print(array)
 
-# #PRINT
-# for printt in range(len(array)):
-#     print(array[printt])
+# #Sorted
+# insertion_sort(array)
+# print("\nSorted list (using INSERTION SORT): ")
+# print(array)
+# print("")

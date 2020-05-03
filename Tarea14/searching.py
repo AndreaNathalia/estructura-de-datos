@@ -1,8 +1,8 @@
-from typing import Tuple
+#from typing import Tuple
 
 l=[1,2,6,8,19,21,23]
 
-def linear_search(sorted_list: list, value: int) -> Tuple[bool, int]:
+def linear_search(sorted_list, value):
 
     for i in range(0, len(sorted_list)):
         if sorted_list[i] == value:
@@ -11,7 +11,7 @@ def linear_search(sorted_list: list, value: int) -> Tuple[bool, int]:
     return False, -1
 
 
-def jump_search(sorted_list: list, value: int, step_size: int) -> Tuple[bool, int]:
+def jump_search(sorted_list, value, step_size):
 
     for i in range(0, len(sorted_list), step_size):
         if sorted_list[i] > value:
