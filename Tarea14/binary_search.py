@@ -27,8 +27,8 @@ insertion_sort(search)
 print("\nSorted list (using INSERTION SORT): ")
 print(search)
 
-val = int(input("\nWhat value do you want to find?: "))
-#val = 3
+#val = int(input("\nWhat value do you want to find?: "))
+val = 3
 
 print("\nIndex of searched value: ")
 print(find(search, val))
